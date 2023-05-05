@@ -3,7 +3,7 @@ import yaml
 import gooey
 
 # Define the folder hierarchy YAML file
-hierarchy_file = r'C:\01_Scripting\folder-template-maker\folder_references.yaml'
+hierarchy_file = './folder_references.yaml'
 
 # Load the folder hierarchy from the YAML file
 with open(hierarchy_file) as f:
